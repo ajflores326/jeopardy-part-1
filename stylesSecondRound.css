@@ -1,0 +1,95 @@
+/* Comments are the same as the first round */
+
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 50px 50px;
+}
+
+.subHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 50px;
+}
+
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    justify-content: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    justify-content: center;
+}
+
+.category {
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.points {
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.guessPass {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.playerScores {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.nextRound {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 5px;
+}
+
+body {
+    background-color: #38598b;
+}

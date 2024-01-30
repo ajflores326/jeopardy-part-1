@@ -5,12 +5,13 @@ header > div {
     justify-content: center;
     font-size: 50px;
     margin: 50px 50px;
+    font-family: "Lucida Handwriting" /*Theme*/
 }
 
-.image {
-    width: 100%;
-    height: auto;
-}
+.image { /* This was used to center the main banner image */
+        width: 100%;
+        height: auto; 
+    }
 
 .button {
     display: flex;
@@ -22,6 +23,7 @@ header > div {
     height: 500px;
     width: auto;
 }
+
 footer {
     display: flex;
     justify-content: right;
@@ -29,4 +31,8 @@ footer {
     border: 2px solid black;
     margin: 50px;
     padding: 5px;
+}
+
+body { /* Theme */
+    background-color: #e7eaf6;
 }
