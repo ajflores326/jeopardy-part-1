@@ -15,13 +15,13 @@ header {
 
 .grid-container1 { /*Five columns for the categories*/
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px 70px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
     justify-content: center;
 }
 
 .grid-container2 { /*Five columns for the points*/
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px 70px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
     justify-content: center;
 }
 
@@ -55,8 +55,13 @@ header {
 .yellow {
     background-color: yellow;
 }
+
+.brown {
+    background-color: burlywood;
+}
 /*Theme color for the category*/
 
+.brown {}
 .inputBox {
     display: flex;
     justify-content: center;
