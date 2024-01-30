@@ -13,13 +13,13 @@ header {
 }
 
 
-.grid-container1 { /*Five columns for the categories*/
+.grid-container1 { /*Six columns for the categories*/
     display: grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px;
     justify-content: center;
 }
 
-.grid-container2 { /*Five columns for the points*/
+.grid-container2 { /*Six columns for the points*/
     display: grid;
     grid-template-columns: 50px 50px 50px 50px 50px 50px;
     justify-content: center;
