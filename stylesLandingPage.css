@@ -1,0 +1,32 @@
+
+
+header > div {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 50px 50px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.empty{
+    height: 500px;
+    width: auto;
+}
+footer {
+    display: flex;
+    justify-content: right;
+    background-color: gray;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 5px;
+}
